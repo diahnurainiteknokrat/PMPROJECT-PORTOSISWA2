@@ -6,24 +6,38 @@
     android:gravity="center"
     android:padding="24dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portofolio Siswa SMANDA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
     <Button
         android:id="@+id/btnProfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Profil" />
+        android:text="Lihat Profil Siswa"
+        android:backgroundTint="#1976D2"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/btnPortofolio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Portofolio"
-        android:layout_marginTop="16dp"/>
+        android:text="Lihat Portofolio"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="@android:color/white"/>
 
     <Button
         android:id="@+id/btnPrestasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Prestasi"
-        android:layout_marginTop="16dp"/>
-
+        android:text="Lihat Prestasi"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="@android:color/white"/>
 </LinearLayout>
+
