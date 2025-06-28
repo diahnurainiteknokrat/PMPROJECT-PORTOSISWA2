@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -12,21 +11,28 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nama: Diah Nuraini"
-            android:textSize="18sp"/>
+            android:text="Nama: Putri Aulia"
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NIM: 23372002P"
+            android:text="NISN: 0058493738"
             android:textSize="18sp"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Universitas: Universitas Teknokrat Indonesia"
+            android:text="Kelas: XII IPA 2"
             android:textSize="18sp"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sekolah: SMA Negeri 2 Bandar Lampung"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
     </LinearLayout>
 </ScrollView>
