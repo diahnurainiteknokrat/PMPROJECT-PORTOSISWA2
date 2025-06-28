@@ -1,43 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Portofolio Siswa SMANDA"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="32dp"/>
-
-    <Button
-        android:id="@+id/btnProfil"
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:id="@+id/mainContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lihat Profil Siswa"
-        android:backgroundTint="#1976D2"
-        android:textColor="@android:color/white" />
+        android:layout_above="@id/bottom_navigation"
+        android:layout_marginBottom="220dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
 
-    <Button
-        android:id="@+id/btnPortofolio"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="Portofolio Siswa SMANDA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnProfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1976D2"
+            android:text="Lihat Profil Siswa"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnPortofolio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1976D2"
+            android:text="Lihat Portofolio"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnPrestasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1976D2"
+            android:text="Lihat Prestasi"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lihat Portofolio"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#1976D2"
-        android:textColor="@android:color/white"/>
-
-    <Button
-        android:id="@+id/btnPrestasi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Lihat Prestasi"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#1976D2"
-        android:textColor="@android:color/white"/>
-</LinearLayout>
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>
 
