@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uti.portosiswa"
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
@@ -12,24 +13,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PMPROJECTPORTOSISWA"
         tools:targetApi="31">
+
+        <!-- Activity Prestasi -->
         <activity
-            android:name="com.uti.pmproject_portosiswa.PrestasiActivity"
+            android:name=".PrestasiActivity"
             android:exported="false" />
+
+        <!-- Activity Portofolio -->
         <activity
-            android:name="com.uti.pmproject_portosiswa.PortofolioActivity"
+            android:name=".PortofolioActivity"
             android:exported="false" />
+
+        <!-- Activity Profil -->
         <activity
             android:name=".ProfilActivity"
             android:exported="false" />
+
+        <!-- Activity Home -->
         <activity
             android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
