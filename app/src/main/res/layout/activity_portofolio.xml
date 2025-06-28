@@ -63,5 +63,34 @@
             android:text="Tahun: 2025"
             android:textSize="16sp"
             android:layout_marginTop="4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏆 Prestasi Siswa:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terbaru: Juara 2 Lomba Desain Poster Digital"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poin Tertinggi: Olimpiade Matematika (98 poin)"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp" />
+
     </LinearLayout>
 </ScrollView>
