@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView android:id="@+id/tvJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView android:id="@+id/tvDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi" />
+
+    <TextView android:id="@+id/tvTahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tahun"
+        android:textStyle="italic" />
+</LinearLayout>
